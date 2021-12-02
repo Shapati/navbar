@@ -1,0 +1,54 @@
+nav{
+    text-align: right;
+}
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{ 
+    list-style: none;
+   
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center */
+}
+li{
+    font-size: 20px;
+    margin-bottom: 90px;
+  
+}
+
+p {
+    cursor: pointer;
+}
+.remove{
+    display: none;
+}
+.click{
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+  right: 0;
+  top: 0;
+  margin-right: 10px;
+
+}
+.popup{
+    display: none;
+   
+    
+    background-color: crimson;
+    height: 100vh;
+    text-align: center;
+}
+img{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    width: 50px;
+    background-color: crimson;
+}
+.popup{
+    padding-top: 50px;
+}
